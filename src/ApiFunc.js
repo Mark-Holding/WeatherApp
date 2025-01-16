@@ -1,6 +1,6 @@
 
 
-async function fetchWeatherData(location, apiKey) {
+export default async function fetchWeatherData(location, apiKey) {
     const baseUrl = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline";
     const url = `${baseUrl}/${location}?key=${apiKey}`;
 
